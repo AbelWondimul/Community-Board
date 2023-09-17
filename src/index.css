@@ -1,0 +1,101 @@
+html{
+  background-color: rgb(155, 246, 215);
+  font-family: sans-serif;
+}
+.box{
+  background-color: rgb(122, 222, 222);
+  margin: 10px 10px 10px 10px;
+  padding: 2px;
+}
+.box1{
+  display:flex;
+  margin: 10px 20px 20px 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  flex-wrap: wrap;
+}
+
+.card{
+  padding: 0px;
+  background-color: aliceblue;
+  width:280px;
+  height:400px;
+  margin: 10px;
+  margin-top: 50px;
+  border-radius: 2%;
+  flex-wrap: wrap;
+  box-shadow: rgb(34, 16, 16) 0px 5px 15px;
+ 
+}
+
+.img{
+  padding:0 !important;
+  margin:0 !important;
+  height:60%;
+  width:100%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  
+}
+
+.btn{
+  border:none;
+  border-radius: 8%;
+  background-color: rgb(182, 13, 13);
+  width:12vh;
+  height:4vh;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin:auto;
+  
+}
+
+.btn:hover{
+  box-shadow: black 0px 7px 29px 0px;
+  cursor: pointer;
+}
+.btn:active{
+  color:black;
+  background-color: aliceblue;
+  
+}
+.txt{
+  display:flex;
+  justify-content: center;
+  margin-top:100px;
+  color:white;
+  font-size: 400%;
+  font-family: sans-serif;
+  text-shadow: black 1px 0 10px;
+}
+.txt2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cent{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.link{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 699px) {
+  
+  .txt {
+    font-size: 30px;
+  }
+  .btn {
+    font-size: 10px;
+  }
+}
